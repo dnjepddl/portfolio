@@ -1,100 +1,100 @@
 {
-    "portfolioItems": [
-      {
-        "h": "PERSONAL PROJECT",
-        "title": "STX 건설",
-        "date": "2023. 06. 02 ~ 2023. 06. 16",
-        "contributors": "1명(기여도: 100%)",
-        "technologies": "HTML, CSS, JavaScript",
-        "src": "images/stx.gif",
-        "link": {
-          "workLabel": "work",
-          "githubLabel": "github",
-          "originLabel": "origin",
-          "work": "https://dnjepddl.github.io/STX/",
-          "github": "https://github.com/dnjepddl/STX",
-          "origin": "http://"
-        }
-      },
-      {
-        "h": "PERSONAL PROJECT",
-        "title": "도시락통",
-        "date": "2023. 07. 12 ~ 2023. 07. 19",
-        "contributors": "1명(기여도: 100%)",
-        "technologies": "HTML, CSS, JavaScript",
-        "src": "images/dosiraktong.gif",
-        "link": {
-          "workLabel": "work",
-          "githubLabel": "github",
-          "originLabel": "origin",
-          "work": "https://dnjepddl.github.io/newdosiraktong/",
-          "github": "https://github.com/dnjepddl/newdosiraktong",
-          "origin": "http://"
-        }
-      },
-      {
-        "h": "PERSONAL PROJECT",
-        "title": "한살림장보기",
-        "date": "2023. 07. 21 ~ 2023. 07. 31",
-        "contributors": "1명(기여도: 100%)",
-        "technologies": "HTML, CSS, JavaScript",
-        "src": "images/hansalim.gif",
-        "link": {
-          "workLabel": "work",
-          "githubLabel": "github",
-          "originLabel": "origin",
-          "work": "https://dnjepddl.github.io/newhansalim/",
-          "github": "https://github.com/dnjepddl/newhansalim",
-          "origin": "http://"
-        }
-      },
-      {
-        "h": "PERSONAL PROJECT",
-        "title": "현대",
-        "date": "2023. 08. 14 ~ 2023. 08. 18",
-        "contributors": "1명(기여도: 100%)",
-        "technologies": "HTML, CSS, JavaScript",
-        "src": "images/hyundai.gif",
-        "link": {
-          "workLabel": "work",
-          "githubLabel": "github",
-          "originLabel": "origin",
-          "work": "https://dnjepddl.github.io/hyundae/",
-          "github": "https://github.com/dnjepddl/hyundae",
-          "origin": "http://"
-        }
-      },
-      {
-        "h": "TEAM PROJECT",
-        "title": "VENUE",
-        "date": "2023. 08. 07 ~ 2023. 09. 15",
-        "contributors": "3명(기여도: 80%)",
-        "technologies": "HTML, CSS, JavaScript",
-        "src": "images/venue.gif",
-        "link": {
-          "workLabel": "work",
-          "githubLabel": "GitHub",
-          "originLabel": "Notion",
-          "work": "https://dnjepddl.github.io/teamproject/",
-          "GitHub": "https://github.com/dnjepddl/teamproject",
-          "Notion": "https://www.notion.so/Venue-a85ace3bffd54c738136837a521a7cf6?pvs=4"
-        }
-      },
-      {
-        "h": "TEAM PROJECT",
-        "title": "길라잡이",
-        "date": "2023. 09. 11 ~ 2023. 10. 13",
-        "contributors": "3명(기여도: 80%)",
-        "technologies": "HTML, CSS, JavaScript",
-        "src": "images/gillajab-i.gif",
-        "link": {
-          "workLabel": "work",
-          "githubLabel": "GitHub",
-          "originLabel": "Notion",
-          "work": "https://gillajab-i.vercel.app/",
-          "GitHub": "https://https://github.com/dnjepddl/gillajab-i",
-          "Notion": "https://www.notion.so/7fb7ffed2fd1400fa4f0f6fdf3b3371f?pvs=4"
-        }
+  "portfolioItems": [
+    {
+      "h": "PERSONAL PROJECT",
+      "title": "STX 건설",
+      "date": "2023. 06. 02 ~ 2023. 06. 16",
+      "contributors": "1명(기여도: 100%)",
+      "technologies": "HTML, CSS, JavaScript",
+      "src": "images/stx.gif",
+      "link": {
+        "workLabel": "work",
+        "githubLabel": "github",
+        "originLabel": "origin",
+        "work": "https://dnjepddl.github.io/STX/",
+        "github": "https://github.com/dnjepddl/STX",
+        "origin": "http://"
       }
-    ]
-  }
+    },
+    {
+      "h": "PERSONAL PROJECT",
+      "title": "도시락통",
+      "date": "2023. 07. 12 ~ 2023. 07. 19",
+      "contributors": "1명(기여도: 100%)",
+      "technologies": "HTML, CSS, JavaScript",
+      "src": "images/dosiraktong.gif",
+      "link": {
+        "workLabel": "work",
+        "githubLabel": "github",
+        "originLabel": "origin",
+        "work": "https://dnjepddl.github.io/newdosiraktong/",
+        "github": "https://github.com/dnjepddl/newdosiraktong",
+        "origin": "http://"
+      }
+    },
+    {
+      "h": "PERSONAL PROJECT",
+      "title": "한살림장보기",
+      "date": "2023. 07. 21 ~ 2023. 07. 31",
+      "contributors": "1명(기여도: 100%)",
+      "technologies": "HTML, CSS, JavaScript",
+      "src": "images/hansalim.gif",
+      "link": {
+        "workLabel": "work",
+        "githubLabel": "github",
+        "originLabel": "origin",
+        "work": "https://dnjepddl.github.io/newhansalim/",
+        "github": "https://github.com/dnjepddl/newhansalim",
+        "origin": "http://"
+      }
+    },
+    {
+      "h": "PERSONAL PROJECT",
+      "title": "현대",
+      "date": "2023. 08. 14 ~ 2023. 08. 18",
+      "contributors": "1명(기여도: 100%)",
+      "technologies": "HTML, CSS, JavaScript",
+      "src": "images/hyundai.gif",
+      "link": {
+        "workLabel": "work",
+        "githubLabel": "github",
+        "originLabel": "origin",
+        "work": "https://dnjepddl.github.io/hyundae/",
+        "github": "https://github.com/dnjepddl/hyundae",
+        "origin": "http://"
+      }
+    },
+    {
+      "h": "TEAM PROJECT",
+      "title": "VENUE",
+      "date": "2023. 08. 07 ~ 2023. 09. 15",
+      "contributors": "3명(기여도: 80%)",
+      "technologies": "HTML, CSS, JavaScript",
+      "src": "images/venue.gif",
+      "link": {
+        "workLabel": "Notion",
+        "githubLabel": "GitHub",
+        "originLabel": "Site",
+        "Notion": "https://sleepy-stool-c42.notion.site/Venue-a85ace3bffd54c738136837a521a7cf6?pvs=4",
+        "GitHub": "https://github.com/dnjepddl/teamproject",
+        "Site": "https://dnjepddl.github.io/teamproject/"
+      }
+    },
+    {
+      "h": "TEAM PROJECT",
+      "title": "길라잡이",
+      "date": "2023. 09. 11 ~ 2023. 10. 13",
+      "contributors": "3명(기여도: 80%)",
+      "technologies": "HTML, CSS, JavaScript",
+      "src": "images/gillajab-i.gif",
+      "link": {
+        "workLabel": "Notion",
+        "githubLabel": "GitHub",
+        "originLabel": "Site",
+        "Notion": "https://sleepy-stool-c42.notion.site/7fb7ffed2fd1400fa4f0f6fdf3b3371f?pvs=4",
+        "GitHub": "https://github.com/dnjepddl/gillajab-i",
+        "Site": "https://gillajab-i.vercel.app/"
+      }
+    }
+  ]
+}

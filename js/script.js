@@ -119,9 +119,9 @@ window.onload = function () {
       const portfolioItems = data.portfolioItems; //json에서 포트폴리오 항목 데이터를 가져옴
       const dataVisual = document.getElementById("data-visual");
       portfolioItems.forEach((item) => {
-          const slide = document.createElement("div");
-          slide.className = "swiper-slide";
-          slide.innerHTML = `
+        const slide = document.createElement("div");
+        slide.className = "swiper-slide";
+        slide.innerHTML = `
           <div class="project">
             <div class="pj-img">
                 <img src="${item.src}" class"stx-gif"/>
@@ -135,16 +135,22 @@ window.onload = function () {
                     사용 프로그램: ${item.technologies}
                 </span>
                 <div class="swiper-btn">
-                <a href="${item.link.work || item.link.Notion}" target="_blank">${item.link.workLabel}</a>
-                <a href="${item.link.github || item.link.GitHub}" target="_blank">${item.link.githubLabel}</a>
-                <a href="${item.link.origin || item.link.Figma}" target="_blank">${item.link.originLabel}</a>
+                <a href="${
+                  item.link.work || item.link.Notion
+                }" target="_blank">${item.link.workLabel}</a>
+                <a href="${
+                  item.link.github || item.link.GitHub
+                }" target="_blank">${item.link.githubLabel}</a>
+                <a href="${
+                  item.link.origin || item.link.Site
+                }" target="_blank">${item.link.originLabel}</a>
                 </div>
             </div>
           </div>
           `;
-          dataVisual.appendChild(slide);
+        dataVisual.appendChild(slide);
       });
-         // Swiper 슬라이더 초기화 코드 추가
+      // Swiper 슬라이더 초기화 코드 추가
       new Swiper(".swVisual", {
         slidesPerView: 1,
         spaceBetween: 10,
@@ -155,7 +161,7 @@ window.onload = function () {
         // 추가적인 Swiper 설정을 여기에 추가할 수 있습니다.
       });
     })
-      .catch((error) => {
-        console.error("JSON 파일 로드 중 오류 발생:", error);
+    .catch((error) => {
+      console.error("JSON 파일 로드 중 오류 발생:", error);
     });
 };
