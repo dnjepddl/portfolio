@@ -11,8 +11,8 @@
           "workLabel": "work",
           "githubLabel": "github",
           "originLabel": "origin",
-          "work": "https://",
-          "github": "https://",
+          "work": "https://dnjepddl.github.io/STX/",
+          "github": "https://github.com/dnjepddl/STX",
           "origin": "http://"
         }
       },
@@ -27,8 +27,8 @@
           "workLabel": "work",
           "githubLabel": "github",
           "originLabel": "origin",
-          "work": "https://",
-          "github": "https://",
+          "work": "https://dnjepddl.github.io/newdosiraktong/",
+          "github": "https://github.com/dnjepddl/newdosiraktong",
           "origin": "http://"
         }
       },
@@ -43,8 +43,8 @@
           "workLabel": "work",
           "githubLabel": "github",
           "originLabel": "origin",
-          "work": "https://",
-          "github": "https://",
+          "work": "https://dnjepddl.github.io/newhansalim/",
+          "github": "https://github.com/dnjepddl/newhansalim",
           "origin": "http://"
         }
       },
@@ -59,8 +59,8 @@
           "workLabel": "work",
           "githubLabel": "github",
           "originLabel": "origin",
-          "work": "https://",
-          "github": "https://",
+          "work": "https://dnjepddl.github.io/hyundae/",
+          "github": "https://github.com/dnjepddl/hyundae",
           "origin": "http://"
         }
       },
@@ -70,14 +70,14 @@
         "date": "2023. 08. 07 ~ 2023. 09. 15",
         "contributors": "3명(기여도: 80%)",
         "technologies": "HTML, CSS, JavaScript",
-        "src": "images/stx.gif",
+        "src": "images/venue.gif",
         "link": {
-          "workLabel": "Notion",
+          "workLabel": "work",
           "githubLabel": "GitHub",
-          "originLabel": "Figma",
-          "Notion": "https://",
-          "GitHub": "https://",
-          "Figma": "http://"
+          "originLabel": "Notion",
+          "work": "https://dnjepddl.github.io/teamproject/",
+          "GitHub": "https://github.com/dnjepddl/teamproject",
+          "Notion": "https://www.notion.so/Venue-a85ace3bffd54c738136837a521a7cf6?pvs=4"
         }
       },
       {
@@ -86,14 +86,14 @@
         "date": "2023. 09. 11 ~ 2023. 10. 13",
         "contributors": "3명(기여도: 80%)",
         "technologies": "HTML, CSS, JavaScript",
-        "src": "images/stx.gif",
+        "src": "images/gillajab-i.gif",
         "link": {
-          "workLabel": "Notion",
+          "workLabel": "work",
           "githubLabel": "GitHub",
-          "originLabel": "Figma",
-          "Notion": "https://",
-          "GitHub": "https://",
-          "Figma": "http://"
+          "originLabel": "Notion",
+          "work": "https://gillajab-i.vercel.app/",
+          "GitHub": "https://https://github.com/dnjepddl/gillajab-i",
+          "Notion": "https://www.notion.so/7fb7ffed2fd1400fa4f0f6fdf3b3371f?pvs=4"
         }
       }
     ]

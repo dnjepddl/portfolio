@@ -755,16 +755,35 @@ body {
 @media screen and (max-width: 520px) {
   .p-right {
     flex-direction: column;
+    height: 800px;
   }
   .p-right > div {
-    height: 200px;
+    width: 100%;
+    height: 185px;
+    text-align: center;
   }
-  .p-right > .p-history {
+  /* .p-right > .p-history {
     width: 300px;
+  } */
+  .gnb{
+    width: 100%;
+    justify-content: center;
   }
   .gnb > ul > li {
     font-size: 1.2rem;
+    text-align: center;
     color: #009ce6;
+  }
+}
+@media screen and (max-width:380px) {
+  .p-right > div > h2{
+    font-size: 1.4rem;
+  }
+  .p-right > div > h2 > i{
+    font-size: 1.4rem;
+  }
+  .gnb > ul > li{
+    font-size: 1rem;
   }
 }
 
@@ -814,7 +833,7 @@ body {
   display: block;
   width: auto;
   height: 580px;
-  /* background: url("../assets/images/folder.png") no-repeat center; */
+  background: url("../images/folder.png") no-repeat center;
 }
 
 .swVisual {
@@ -1063,7 +1082,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    /* background: url("../assets/images/folder.png") no-repeat center; */
+    background: url("../images/folder.png") no-repeat center;
     background-size: cover;
   }
   .swVisual {
@@ -1140,7 +1159,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    /* background: url("../assets/images/folder.png") no-repeat center; */
+    background: url("../images/folder.png") no-repeat center;
     background-size: cover;
   }
   .swVisual {
