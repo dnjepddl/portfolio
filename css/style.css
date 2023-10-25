@@ -450,12 +450,18 @@ body {
 .p-left > .my-picture {
   width: 100%;
   height: 400px;
-}
-.p-left > .my-picture > img {
-  position: relative;
-  width: 100%;
-  height: 400px;
+  background-color: rgba(0,0,0,0.1);
   border-top-left-radius: 12px;
+}
+.p-left > .my-picture> img {
+  position: relative;
+  width: 70%;
+  height: 90%;
+  /* margin-left: 70px; */
+  /* margin: 0 70px; */
+  margin: 5% 15%;
+  border-radius: 50%;
+  /* border-top-left-radius: 12px; */
   /* margin-left: 20px; */
 }
 .bubble {
@@ -642,6 +648,12 @@ body {
 }
 
 @media screen and (max-width: 950px) {
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 80%;
+    height: 95%;
+    margin: 2.5% 10%;
+  }
   .p-profile,
   .p-lisence,
   .p-history,
@@ -682,23 +694,14 @@ body {
   }
 }
 
-/* @media all and (max-width: 850px) {
-  .p-profile > h2,
-  .p-history > h2,
-  .p-lisence > h2,
-  .p-experience > h2 {
-    font-size: 1.3rem;
+@media all and (max-width: 850px) {
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 90%;
+    height: 95%;
+    margin: 2.5% 5%;
   }
-  .gnb {
-    font-size: 1rem;
-  }
-  .bubble > h1 {
-    font-size: 2.4rem;
-  }
-  .bubble > p {
-    font-size: 1.2rem;
-  }
-} */
+}
 @media screen and (max-width: 767px) {
   .profile-innerwrap {
     display: flex;
@@ -708,6 +711,12 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+  }
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 80%;
+    height: 95%;
+    margin: 2.5% 10%;
   }
   .bubble {
     height: 400px;
@@ -736,8 +745,14 @@ body {
   .p-left {
     flex-direction: column;
   }
-  .my-picture img {
+  .p-left > .my-picture{
     border-top-right-radius: 12px;
+  }
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 60%;
+    height: 95%;
+    margin: 2.5% 20%;
   }
   .bubble {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
@@ -753,6 +768,12 @@ body {
   }
 }
 @media screen and (max-width: 520px) {
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 70%;
+    height: 95%;
+    margin: 2.5% 15%;
+  }
   .p-right {
     flex-direction: column;
     height: 800px;
@@ -772,10 +793,23 @@ body {
   .gnb > ul > li {
     font-size: 1.2rem;
     text-align: center;
-    color: #009ce6;
+  }
+}
+@media screen and (max-width:450px) {
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 80%;
+    height: 95%;
+    margin: 2.5% 10%;
   }
 }
 @media screen and (max-width:380px) {
+  .p-left > .my-picture> img {
+    position: relative;
+    width: 80%;
+    height: 95%;
+    margin: 2.5% 10%;
+  }
   .p-right > div > h2{
     font-size: 1.4rem;
   }
